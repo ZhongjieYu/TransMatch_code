@@ -245,8 +245,7 @@ def main():
         ##imprinting_result.csv saves 600 experiment results for Imprinting
         pd.DataFrame(final_result).to_csv(os.path.join(args.checkpoint, 'final_result.csv'))
         pd.DataFrame(imprinting_result).to_csv(os.path.join(args.checkpoint, 'imprinting_result.csv'))
-        print('Best acc:')
-        print(best_prec1)
+        
 
 
 ################Fine-tuning with unlabeled data by TransMatch#####################
