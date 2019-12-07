@@ -73,8 +73,9 @@ class Logger(object):
     def plot(self, names=None):   
         names = self.names if names == None else names
         numbers = self.numbers
-        x = np.arange(len(numbers[name]))
-        plt.plot(x, np.asarray(numbers[name]))
+        for _, name in enumerate(names):
+            x = np.arange(len(numbers[name]))
+            plt.plot(x, np.asarray(numbers[name]))
         #plt.legend([self.title + '(' + name + ')' for name in names])
         plt.grid(True)
 
