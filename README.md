@@ -11,8 +11,10 @@ This is the code for pytorch implementation for TransMatch on miniImagenet. (pre
 - numpy
 
 ## Download necassary files
-download MY_mini_data: https://drive.google.com/file/d/1Mmx4pi-29FOh9R2wMS1OpqxSuXEUP_vD/view?usp=sharing
-pretrained model on base-class data: https://drive.google.com/file/d/1CUluyeErZ919EVV1WeAD0QYN7d130rZm/view?usp=sharing
+1. download MY_mini_data: https://drive.google.com/file/d/1Mmx4pi-29FOh9R2wMS1OpqxSuXEUP_vD/view?usp=sharing
+
+2. download pretrained model on base-class data: https://drive.google.com/file/d/1CUluyeErZ919EVV1WeAD0QYN7d130rZm/view?usp=sharing
+
 Then Unzip the MY_mini_data.zip 
 All the files should look like this in your folder:
 ```
