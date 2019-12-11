@@ -65,7 +65,7 @@ Learning_Rate	Train_Loss	Train_Loss_X	Train_Loss_U	Valid_Loss	Valid_Acc
 ...
 0.001000	0.639709	0.563627	0.015217	0.803816	72.000000	
 ```
-#### The change of test accuracy over 25 epochs for 600 experiments will be like
+#### The change of test accuracy over 25 epochs for 600 experiments will be like (each line represents one experiment)
 <p align="center"><img width="50%" src="example.png" /></p>
 
 ### 5-way 1-shot 100-unlabel
