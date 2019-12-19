@@ -1,6 +1,7 @@
 # TransMatch
 PyTorch implementation of our paper 'TransMatch: a transfer learning scheme for semi-supervised few-shot learning'. 
 The following code is for miniImagenet.
+<p align="center"><img width="80%" src="transmatch.jpg" /></p>
 
 #### Summary
 
