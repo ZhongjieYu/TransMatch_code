@@ -1,6 +1,14 @@
 # TransMatch
 PyTorch implementation of TransMatch: a transfer learning scheme for semi-supervised few-shot learning. 
 The following code is for miniImagenet.
+
+#### Summary
+
+* [Requirements](#environment requirements)
+* [Download data and pre-trained model](#project-architecture)
+* [Run experiments on miniImagenet](#running-experiments)
+* [Performance](#performance)
+
 ## Requirements
 Use conda
 ```bash
@@ -16,7 +24,9 @@ pip install -r requirements.txt
 
 2. Download pretrained model on base-class data: [download link](https://drive.google.com/file/d/1CUluyeErZ919EVV1WeAD0QYN7d130rZm/view?usp=sharing)
 
-Then Unzip the `MY_mini_data.zip`, and after that it should look like:
+Then Unzip the `MY_mini_data.zip`.
+
+The project folder should look like:
 ```bash
 main.py
 mini_loader.py
