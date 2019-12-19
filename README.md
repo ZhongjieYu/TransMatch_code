@@ -83,3 +83,17 @@ python main.py --gpu 0 --random --num-way 5 --num-sample 1 --unlabelnumber 100 -
 ```bash
 python main.py --gpu 0 --num-way 5 --num-sample 1 --unlabelnumber 100 --distractor --distractor_class 3 --epoch 20 --checkpoint TransMatch_5_1_100_distractor_3
 ```
+
+## Performance
+### No distractor class for unlabeled images
+
+
+|          (%)           | Imprinting  | MixMatch  | TranMatch (Ours) |
+| ---------------------- | ------------ | ------------ | ------------ |
+| 1-shot            | `58.68 ± 0.81` | `52.00 ± 1.20` | `63.02 ± 1.07` |
+| 5-shot           | `76.06 ± 0.59` | `79.97 ± 0.62` | `81.19 ± 0.59` |
+
+### with distractor classes for unlabeled images
+
+
+
