@@ -5,9 +5,9 @@ The following code is for miniImagenet.
 #### Summary
 
 * [Requirements](#environment-requirements)
-* [Download data and pre-trained model] (#project-architecture)
-* [Run experiments on miniImagenet] (#running-experiments)
-* [Performance] (#performance)
+* [Download data and pre-trained model](#project-architecture)
+* [Run experiments on miniImagenet](#running-experiments)
+* [Performance](#performance)
 
 
 ## Requirements
