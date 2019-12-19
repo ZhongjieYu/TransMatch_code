@@ -11,14 +11,8 @@ The following code is for miniImagenet.
 
 
 ## Requirements
-Use conda
-```bash
-conda env create -f environment.xml
-```
-Use pip
-```
-pip install -r requirements.txt
-```
+* Python 3.5
+* Pytorch 0.4+
 
 ## Download data and pre-trained model
 1. Download miniImageNet: [download link](https://drive.google.com/file/d/1Mmx4pi-29FOh9R2wMS1OpqxSuXEUP_vD/view?usp=sharing)
