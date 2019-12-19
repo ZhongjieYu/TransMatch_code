@@ -52,7 +52,7 @@ python main.py --gpu 0 --random --num-way 5 --num-sample 5 --unlabelnumber 100 -
 ```
 #### TransMatch with distractor class
 ```bash
-python main.py --gpu 0 --num-way 5 --num-sample 5 --unlabelnumber 100 --distractor --distractor_class 3 --epoch 25 --checkpoint TransMatch_5_5_100_distractor_3
+python main.py --gpu 0 --num-way 5 --num-sample 5 --unlabelnumber 100 --distractor --distractor_class 2 --epoch 25 --checkpoint TransMatch_5_5_100_distractor_2
 ```
 #### each log file will be like in this format:
 ```bash
@@ -81,7 +81,7 @@ python main.py --gpu 0 --random --num-way 5 --num-sample 1 --unlabelnumber 100 -
 
 #### TransMatch with distractor class
 ```bash
-python main.py --gpu 0 --num-way 5 --num-sample 1 --unlabelnumber 100 --distractor --distractor_class 3 --epoch 20 --checkpoint TransMatch_5_1_100_distractor_3
+python main.py --gpu 0 --num-way 5 --num-sample 1 --unlabelnumber 100 --distractor --distractor_class 2 --epoch 20 --checkpoint TransMatch_5_1_100_distractor_2
 ```
 
 ## Performance
@@ -93,7 +93,10 @@ python main.py --gpu 0 --num-way 5 --num-sample 1 --unlabelnumber 100 --distract
 | 1-shot            | `58.68 ± 0.81` | `52.00 ± 1.20` | `63.02 ± 1.07` |
 | 5-shot           | `76.06 ± 0.59` | `79.97 ± 0.62` | `81.19 ± 0.59` |
 
-### with distractor classes for unlabeled images
+### With distractor classes for unlabeled images
 
-
+|          (%)           | Imprinting  | MixMatch  | TranMatch (Ours) |
+| ---------------------- | ------------ | ------------ | ------------ |
+| 1-shot            | `58.68 ± 0.81` | `50.68 ± 1.15` | `60.41 ± 1.02` |
+| 5-shot           | `76.06 ± 0.59` | `78.07 ± 0.69` | `79.48 ± 0.64` |
 
